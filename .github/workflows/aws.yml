@@ -5,9 +5,15 @@ on:
     branches:
       - main
 
+
 jobs:
   terraform:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: .github/workflows/terraform
+
 
     steps:
       - name: Checkout Code
