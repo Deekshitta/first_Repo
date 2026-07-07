@@ -7,6 +7,6 @@ resource "aws_instance" "ec2" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "GitHub-EC2"
+    Name = "GitHub-AWSEC2001"
   }
 }
