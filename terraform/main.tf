@@ -1,7 +1,4 @@
 
-env | grep AWS
-
-aws sts get-caller-identity
 provider "aws" {
   region = "ap-southeast-2"
 }
